@@ -1,0 +1,17 @@
+#Greenfoot properties
+#Fri Aug 09 09:44:41 PDT 2013
+class.Spencer.image=woman01.png
+class.Course.superclass=greenfoot.World
+class.Spencer.superclass=greenfoot.Actor
+class.Toby.superclass=greenfoot.Actor
+class.Platforms.image=bricks3.jpg
+class.SmileyMissiles.image=smiley5.png
+class.Course.image=crumpled-paper.jpg
+class.BombMissiles.superclass=Spencer
+class.Platforms.superclass=greenfoot.Actor
+project.charset=UTF-8
+version=2.5.0
+class.SmileyMissiles.superclass=Toby
+class.BombMissiles.image=bomb.png
+world.lastInstantiated=Course
+class.Toby.image=man01.png
