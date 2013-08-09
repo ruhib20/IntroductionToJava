@@ -7,5 +7,5 @@ comment1.target=void\ checkKeys()
 comment2.params=
 comment2.target=void\ checkFireKey()
 comment3.params=
-comment3.target=void\ fireBullet()
+comment3.target=void\ fireSmileyMissiles()
 numComments=4

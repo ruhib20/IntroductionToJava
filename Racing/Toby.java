@@ -50,11 +50,20 @@ public class Toby extends Actor
 
     public void checkFireKey()
     {
-
+        if ("q".equals(Greenfoot.getKey()))
+        {
+            fireSmileyMissiles();
+        }
     }
 
-    public void fireBullet()
+    public void fireSmileyMissiles()
     {
+        SmileyMissiles bullet = new SmileyMissiles();
+        getWorld().addObject(bullet, getX(), getY());
+        if (facingLeft) {
+            bullet.turn(180);
+            bullet.getImage().mirrorVertically();
+        }
 
     }
 }

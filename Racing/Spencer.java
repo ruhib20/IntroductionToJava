@@ -10,6 +10,7 @@ public class Spencer extends Actor
 {
     boolean facingLeft = false;
     
+   
     /**
      * Act - do whatever the Spencer wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -22,6 +23,7 @@ public class Spencer extends Actor
 
     public void checkKeys()
     {
+       
         if (Greenfoot.isKeyDown("up")) {
             setLocation(getX(), getY() - 5);
         }
